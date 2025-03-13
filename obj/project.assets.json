@@ -3149,11 +3149,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Abdul\\backend\\EcommerceAPI\\EcommerceAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Abdul\\Documents\\GitHub\\e-commerce-backend\\EcommerceAPI.csproj",
       "projectName": "EcommerceAPI",
-      "projectPath": "C:\\Users\\Abdul\\backend\\EcommerceAPI\\EcommerceAPI.csproj",
+      "projectPath": "C:\\Users\\Abdul\\Documents\\GitHub\\e-commerce-backend\\EcommerceAPI.csproj",
       "packagesPath": "C:\\Users\\Abdul\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Abdul\\backend\\EcommerceAPI\\obj\\",
+      "outputPath": "C:\\Users\\Abdul\\Documents\\GitHub\\e-commerce-backend\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
