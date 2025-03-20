@@ -10,59 +10,96 @@ namespace ECommerceAPI.Controllers
     public class UsersController : ControllerBase
     {
         private readonly IUserService _userService;
-
+        
         public UsersController(IUserService userService)
         {
             _userService = userService;
         }
-
-        // user register
+        
+        //user register
         [HttpPost("register")]
-        public async Task<ActionResult<User>> Register([FromBody] UserDto userDto)
+        public async Task<IActionResult> Register([FromBody] UserDto userDto)
         {
-            return await _userService.RegisterAsync(userDto);
+            var result = await _userService.RegisterAsync(userDto);
+            
+            if (!result.Success)
+                return BadRequest(result.Message);
+
+            return Ok(result.Data);
         }
 
-        // user login
+        //user login
         [HttpPost("login")]
-        public async Task<ActionResult> Login([FromBody] LoginDto loginDto)
+        public async Task<IActionResult> Login([FromBody] LoginDto loginDto)
         {
-            return await _userService.LoginAsync(loginDto);
+            var result = await _userService.LoginAsync(loginDto);
+        
+            if (!result.Success)
+                return Unauthorized(result.Message);
+            
+            return Ok(result.Message);
         }
 
-        // user ID list
+        //user Id list
         [HttpGet("{id}")]
-        public async Task<ActionResult<User>> GetUser(int id)
+        public async Task<IActionResult> GetUser(int id)
         {
-            return await _userService.GetUserAsync(id);
+            var result = await _userService.GetUserAsync(id);
+        
+            if (result.NotFound)
+                return NotFound(result.Message);
+            
+            return Ok(result.Data);
         }
 
-        // user list
+        //user list
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<User>>> GetUsers()
+        public async Task<IActionResult> GetUsers()
         {
-            return await _userService.GetUsersAsync();
+            var result = await _userService.GetUsersAsync();
+        
+            if (result.NotFound)
+                return NotFound(result.Message);
+            
+            return Ok(result.Data);
         }
 
-        // user update
+        //user update
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateUser(int id, UserDto userDto)
+        public async Task<IActionResult> UpdateUser(int id, [FromBody] UserDto userDto)
         {
-            return await _userService.UpdateUserAsync(id, userDto);
+            var result = await _userService.UpdateUserAsync(id, userDto);
+        
+            if (result.NotFound)
+                return NotFound(result.Message);
+            if (!result.Success)
+                return BadRequest(result.Message);
+            
+            return Ok(result.Data);
         }
 
-        // user delete
+        //user delete
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteUser(int id)
         {
-            return await _userService.DeleteUserAsync(id);
+            var result = await _userService.DeleteUserAsync(id);
+        
+            if (result.NotFound)
+                return NotFound(result.Message);
+            
+            return Ok(result.Message);
         }
 
-        //user serach
+        //user search
         [HttpPost("search")]
-        public async Task<ActionResult<IEnumerable<User>>> Search([FromBody] SearchUserDto searchUserDto)
+        public async Task<IActionResult> Search([FromBody] SearchUserDto searchUserDto)
         {
-            return await _userService.SearchUsersAsync(searchUserDto);
+            var result = await _userService.SearchUsersAsync(searchUserDto);
+        
+            if (result.NotFound)
+                return NotFound(result.Message);
+            
+            return Ok(result.Data);
         }
     }
 }

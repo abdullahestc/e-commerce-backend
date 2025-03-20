@@ -153,6 +153,14 @@ C:\Users\Abdul\backend\EcommerceAPI\obj\Debug\net9.0\refint\EcommerceAPI.dll
 C:\Users\Abdul\backend\EcommerceAPI\obj\Debug\net9.0\EcommerceAPI.pdb
 C:\Users\Abdul\backend\EcommerceAPI\obj\Debug\net9.0\EcommerceAPI.genruntimeconfig.cache
 C:\Users\Abdul\backend\EcommerceAPI\obj\Debug\net9.0\ref\EcommerceAPI.dll
+C:\Users\Abdul\Documents\GitHub\e-commerce-backend\obj\Debug\net9.0\EcommerceAPI.csproj.AssemblyReference.cache
+C:\Users\Abdul\Documents\GitHub\e-commerce-backend\obj\Debug\net9.0\EcommerceAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abdul\Documents\GitHub\e-commerce-backend\obj\Debug\net9.0\EcommerceAPI.AssemblyInfoInputs.cache
+C:\Users\Abdul\Documents\GitHub\e-commerce-backend\obj\Debug\net9.0\EcommerceAPI.AssemblyInfo.cs
+C:\Users\Abdul\Documents\GitHub\e-commerce-backend\obj\Debug\net9.0\EcommerceAPI.csproj.CoreCompileInputs.cache
+C:\Users\Abdul\Documents\GitHub\e-commerce-backend\obj\Debug\net9.0\EcommerceAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Abdul\Documents\GitHub\e-commerce-backend\obj\Debug\net9.0\EcommerceAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Abdul\Documents\GitHub\e-commerce-backend\obj\Debug\net9.0\EcommerceAPI.sourcelink.json
 C:\Users\Abdul\Documents\GitHub\e-commerce-backend\bin\Debug\net9.0\appsettings.Development.json
 C:\Users\Abdul\Documents\GitHub\e-commerce-backend\bin\Debug\net9.0\appsettings.json
 C:\Users\Abdul\Documents\GitHub\e-commerce-backend\bin\Debug\net9.0\EcommerceAPI.staticwebassets.endpoints.json
@@ -194,6 +202,9 @@ C:\Users\Abdul\Documents\GitHub\e-commerce-backend\bin\Debug\net9.0\Mono.TextTem
 C:\Users\Abdul\Documents\GitHub\e-commerce-backend\bin\Debug\net9.0\SQLitePCLRaw.batteries_v2.dll
 C:\Users\Abdul\Documents\GitHub\e-commerce-backend\bin\Debug\net9.0\SQLitePCLRaw.core.dll
 C:\Users\Abdul\Documents\GitHub\e-commerce-backend\bin\Debug\net9.0\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Users\Abdul\Documents\GitHub\e-commerce-backend\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Abdul\Documents\GitHub\e-commerce-backend\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Abdul\Documents\GitHub\e-commerce-backend\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\Abdul\Documents\GitHub\e-commerce-backend\bin\Debug\net9.0\System.CodeDom.dll
 C:\Users\Abdul\Documents\GitHub\e-commerce-backend\bin\Debug\net9.0\System.Composition.AttributedModel.dll
 C:\Users\Abdul\Documents\GitHub\e-commerce-backend\bin\Debug\net9.0\System.Composition.Convention.dll
@@ -287,14 +298,6 @@ C:\Users\Abdul\Documents\GitHub\e-commerce-backend\bin\Debug\net9.0\runtimes\win
 C:\Users\Abdul\Documents\GitHub\e-commerce-backend\bin\Debug\net9.0\runtimes\win-arm64\native\e_sqlite3.dll
 C:\Users\Abdul\Documents\GitHub\e-commerce-backend\bin\Debug\net9.0\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\Abdul\Documents\GitHub\e-commerce-backend\bin\Debug\net9.0\runtimes\win-x86\native\e_sqlite3.dll
-C:\Users\Abdul\Documents\GitHub\e-commerce-backend\obj\Debug\net9.0\EcommerceAPI.csproj.AssemblyReference.cache
-C:\Users\Abdul\Documents\GitHub\e-commerce-backend\obj\Debug\net9.0\EcommerceAPI.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Abdul\Documents\GitHub\e-commerce-backend\obj\Debug\net9.0\EcommerceAPI.AssemblyInfoInputs.cache
-C:\Users\Abdul\Documents\GitHub\e-commerce-backend\obj\Debug\net9.0\EcommerceAPI.AssemblyInfo.cs
-C:\Users\Abdul\Documents\GitHub\e-commerce-backend\obj\Debug\net9.0\EcommerceAPI.csproj.CoreCompileInputs.cache
-C:\Users\Abdul\Documents\GitHub\e-commerce-backend\obj\Debug\net9.0\EcommerceAPI.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Abdul\Documents\GitHub\e-commerce-backend\obj\Debug\net9.0\EcommerceAPI.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Abdul\Documents\GitHub\e-commerce-backend\obj\Debug\net9.0\EcommerceAPI.sourcelink.json
 C:\Users\Abdul\Documents\GitHub\e-commerce-backend\obj\Debug\net9.0\scopedcss\bundle\EcommerceAPI.styles.css
 C:\Users\Abdul\Documents\GitHub\e-commerce-backend\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\Abdul\Documents\GitHub\e-commerce-backend\obj\Debug\net9.0\staticwebassets.development.json
@@ -311,6 +314,3 @@ C:\Users\Abdul\Documents\GitHub\e-commerce-backend\obj\Debug\net9.0\refint\Ecomm
 C:\Users\Abdul\Documents\GitHub\e-commerce-backend\obj\Debug\net9.0\EcommerceAPI.pdb
 C:\Users\Abdul\Documents\GitHub\e-commerce-backend\obj\Debug\net9.0\EcommerceAPI.genruntimeconfig.cache
 C:\Users\Abdul\Documents\GitHub\e-commerce-backend\obj\Debug\net9.0\ref\EcommerceAPI.dll
-C:\Users\Abdul\Documents\GitHub\e-commerce-backend\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\Abdul\Documents\GitHub\e-commerce-backend\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\Abdul\Documents\GitHub\e-commerce-backend\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
