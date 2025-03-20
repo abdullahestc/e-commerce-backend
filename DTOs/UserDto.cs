@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace ECommerceAPI.Models.DTOs
+namespace ECommerceAPI.DTOs
 {
     public class UserDto
     {
@@ -24,16 +24,6 @@ namespace ECommerceAPI.Models.DTOs
         [Required]
         [StringLength(50)]
         public string Role { get; set; } 
-
-        [Required]
-        [StringLength(100, MinimumLength = 6)]
-        public string Password { get; set; }
-    }
-    public class LoginDto
-    {
-        [Required]
-        [EmailAddress]
-        public string Mail { get; set; }
 
         [Required]
         [StringLength(100, MinimumLength = 6)]
