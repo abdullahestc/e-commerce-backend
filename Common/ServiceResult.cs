@@ -5,7 +5,7 @@
         public bool Success { get; set; }
         public bool NotFound { get; set; }
         public string Message { get; set; }
-        
+
         public static ServiceResult SuccessResult(string message = null) =>
             new ServiceResult { Success = true, Message = message };
 
@@ -28,5 +28,6 @@
 
         public static ServiceResult<T> NotFoundResult(string message) =>
             new ServiceResult<T> { NotFound = true, Message = message };
+
     }
 }

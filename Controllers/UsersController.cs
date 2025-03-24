@@ -101,5 +101,17 @@ namespace ECommerceAPI.Controllers
             
             return Ok(result.Data);
         }
+
+        //user count
+        [HttpGet("count")]
+        public async Task<IActionResult> GetUserCount()
+        {
+            var result = await _userService.GetUserCountAsync();
+    
+            if (!result.Success)
+                return StatusCode(StatusCodes.Status500InternalServerError, result.Message);
+    
+            return Ok(new { TotalUsers = result.Data });
+        }
     }
 }
