@@ -17,6 +17,8 @@ namespace ECommerceAPI.Services
         Task<ServiceResult<UserDto>> UpdateUserAsync(int id, UserDto userDto);
         Task<ServiceResult> DeleteUserAsync(int id);
         Task<ServiceResult<IEnumerable<User>>> SearchUsersAsync(SearchUserDto searchUserDto);
+        Task<ServiceResult<int>> GetUserCountAsync(); 
+        
     }
     
     public class UserService : IUserService
@@ -144,6 +146,20 @@ namespace ECommerceAPI.Services
             }
 
             return ServiceResult<IEnumerable<User>>.SuccessResult(users);
+        }
+
+        //user count
+        public async Task<ServiceResult<int>> GetUserCountAsync()
+        {
+            try
+            {
+                var count = await _context.Users.CountAsync();
+                return ServiceResult<int>.SuccessResult(count);
+            }
+            catch (Exception ex)
+            {
+                return ServiceResult<int>.ErrorResult($"{ex.Message}");
+            }
         }
     }
 }

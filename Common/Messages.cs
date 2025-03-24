@@ -7,4 +7,9 @@
     public static string UpdateUser =>"Kullanıcı başarıyla güncellendi.";
     public static string DeleteUser =>"Kullanıcı başarıyla silindi.";
     public static string AddUser =>"Kullanıcı başarıyla Kaydedildi.";
+    public const string UsedProductName = "Bu ürün adı zaten kullanılıyor";
+    public const string ProductAdded = "Ürün başarıyla eklendi";
+    public const string ProductUpdated = "Ürün başarıyla güncellendi";
+    public const string ProductDeleted = "Ürün başarıyla silindi";
+    public const string ProductNotFound = "Ürün bulunamadı";
 }
